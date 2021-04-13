@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans:wght@800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #3d0066;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+p, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #3d0066;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 1000000;
+}
+header .sticky {
+    padding: 5px 100px;
+    background-color: #3d0066;
+}
+header .logo {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+header .logo img {
+    height: 60px;
+    width: 60px;
+}
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fdc500;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header .sticky ul li a {
+    color: #fdc500;
+}
+/*beasiswa*/
+.container .beasiswa {
+    height: 180vh;
+    width: 100%;
+    background-color: #5c0099;
+}
+.beasiswa {
+    text-align: center;
+}
+.beasiswa h1 {
+    font-size: 50px;
+    color: #ffd500;
+    padding-top: 200px;
+}
+.row {
+    padding: 100px;
+    text-align: center;
+}
+.clm {
+    float: left;
+    width: 33.3%;
+    padding: 3px;
+}
+.clm img {
+    height: 300px;
+    border-radius: 10px;
+}
+.clm p {
+    color: #ffd500;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+/*footer*/
+.footer {
+    background: #5c0099;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+    
+    color: #ffd500;
+    text-align: center;
+}
+.footer p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+}
+.footer a {
+    text-decoration: none;
+    color: #ffd500;
+}
+.social {
+    padding-top: 30px;
+}

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+.button {
+    border-radius: 12px;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+p, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #3d0066;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 1000000;
+}
+header .sticky {
+    padding: 5px 100px;
+    background-color: #3d0066;
+}
+header .logo {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+header .logo img {
+    height: 60px;
+    width: 60px;
+}
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fdc500;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header .sticky ul li a {
+    color: #fdc500;
+}
+.log {
+    background: #3d0066;
+    color: #ffd500;
+    border: 2px solid #ffd500;
+}
+.log:hover {
+    background: #ffd500;
+    color: #3d0066;
+}
+/*home*/
+.container .home{
+    height: 100vh;
+    width: 100%;
+    background-color: #5c0099;
+}
+.home {
+    text-align: center;
+}
+.home h1 {
+    font-size: 50px;
+    color: #ffd500;
+    padding-top: 200px;
+}
+.home p {
+    font-size: 20px;
+    color: #ffd500;
+    padding-bottom: 30px;
+}
+.start {
+    background: #5c0099;
+    color: #ffd500;
+    border: 2px solid #ffd500;
+    align-items: center;
+    left: 50%;
+    bottom: 200px;
+}
+.start:hover {
+    background: #ffd500;
+    color: #5c0099;
+}
+/*about*/
+.container .about {
+    height: 200vh;
+    width: 100%;
+    background-color: #ffd500;
+}
+.about {
+    text-align: center;
+}
+.about h1 {
+    font-size: 30px;
+    color: #5c0099;
+    padding-top: 100px;
+}
+.about p {
+    font-size: 14px;
+    color: #5c0099;
+}
+p .name {
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+.row {
+    padding: 100px;
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 3px;
+}
+.column img {
+    height: 300px;
+    border-radius: 10px;
+}
+/*footer*/
+.footer {
+    background: #ffd500;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+    
+    color: #3d0066;
+    text-align: center;
+}
+.footer p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+}
+.footer a {
+    text-decoration: none;
+    color: #3d0066;
+}
+.social {
+    padding-top: 30px;
+}
